@@ -1,19 +1,45 @@
-#  Jone - Android Gmail Viewer App
+ Jone - Android Gmail Viewer App
 
-Jone is an Android application that uses Google Sign-In to authenticate users and Gmail API to fetch and display the 5 most recent emails from the user's inbox. Built using Jetpack Compose, Material3, Google OAuth, and modern Android best practices.
+Jone is a sleek Android application that allows users to sign in with their Google account and view the subject lines of their five most recent Gmail messages. Built using Jetpack Compose and Google Sign-In, Jone offers a modern UI and simple UX with offline support and graceful error handling.
 
-##  Features
+---
 
--  Google Sign-In integration
--  Display user profile (name, email, profile picture)
--  Fetch & show subject lines of last 5 emails
--  Pull-to-refresh support
--  Offline cache support via SharedPreferences
--  Error handling for token expiration & network issues
--  Clean Material3 UI with splash screen
+Features
 
-##  Build & Run Instructions
+- Google Sign-In Integration
+- View Last 5 Gmail Email Subjects
+- User Profile with Name, Email, and Photo
+- Offline Caching with DataStore
+- Swipe-to-Refresh Support
+- Robust Error Handling
+- Material 3 UI with Jetpack Compose
 
-1. Clone this repo
+---
+
+## 📸 Screenshots
+
+### 🔐 Sign-In Screen
+![Sign-In](screenshots/login_screen.png)
+
+### 📬 Welcome Info
+![Welcome info](screenshots/welcome_info.png)
+### 📬 Email List
+![Email List](screenshots/email_list_view.png)
+---
+
+## 🚀 Getting Started
+
+### ✅ Prerequisites
+
+1. Android Studio (Giraffe or higher recommended)
+2. Google Cloud Project:
+    - Enable **Gmail API**
+    - Configure **OAuth 2.0** Consent Screen
+    - Download `google-services.json` and place it inside `app/`
+3. Add SHA-1 fingerprint in Firebase / Google Developer Console
+
+### 🔧 How to Build
+
+1. Clone the repo:
    ```bash
    git clone https://github.com/Jaswanth-17/Jone.git
