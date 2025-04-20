@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- ✅ Basic NoActionBar Theme for XML compatibility (splash, launcher) -->
+    <style name="Theme.Jone" parent="android:Theme.Material.Light.NoActionBar" />
+
+    <!-- ✅ Optional Splash Theme -->
+    <style name="Theme.Jone.Splash" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">@android:color/white</item>
+        <item name="windowSplashScreenAnimatedIcon">@mipmap/ic_launcher</item>
+        <item name="postSplashScreenTheme">@style/Theme.Jone</item>
+    </style>
+
+</resources>
