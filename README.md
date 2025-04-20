@@ -19,12 +19,12 @@ Features
 ## 📸 Screenshots
 
 ### 🔐 Sign-In Screen
-![Sign-In](screenshots/login_screen.png)
+![Sign-In](screenshots/login_screen)
 
 ### 📬 Welcome Info
-![Welcome info](screenshots/welcome_info.png)
+![Welcome info](screenshots/welcome_info)
 ### 📬 Email List
-![Email List](screenshots/email_list_view.png)
+![Email List](screenshots/email_list_view)
 ---
 
 ## 🚀 Getting Started
